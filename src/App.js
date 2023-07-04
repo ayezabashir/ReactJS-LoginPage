@@ -17,6 +17,23 @@ function App() {
             <TextField className='input' id="outlined-basic" label="Email" variant="outlined" />
             <TextField className='input' id="outlined-basic" label="Password" type='password' variant="outlined" />
           </div>
+          <div className="line">
+            <p className="line_para">Or Continue with</p>
+          </div>
+          <div className="social_icons">
+            <div className="google">
+              <img className='social_img' src="/google.png" alt="" />
+            </div>
+            <div className="meta">
+              <img className='social_img' src="/meta.png" alt="" />
+            </div>
+            <div className="apple">
+              <img className='social_img' src="/apple.png" alt="" />
+            </div>
+          </div>
+          <div className="button_card">
+            <button className='button'>Login</button>
+          </div>
         </div>
       </div>
     </Box>

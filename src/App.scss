@@ -7,7 +7,7 @@
   border-radius: 4px;
 
   .container_padding {
-    padding: 80px;
+    padding: 40px 70px;
   }
   .container_title {
     font-size: 30px;
@@ -26,6 +26,53 @@
       width: 100%;
       margin-top: 15px;
       margin-bottom: 10px;
+    }
+  }
+  .line {
+    color: #545454;
+    margin-top: 10px;
+    .line_para {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .social_icons {
+    display: flex;
+    justify-content: space-between;
+    .google,
+    .apple,
+    .meta {
+      background: #f7f7f7;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+    }
+  }
+  .button_card {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    .button {
+      padding: 20px;
+      background: transparent;
+      color: white;
+      outline: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    &:hover {
+      background: #ffffff;
+      cursor: pointer;
+      border: 1px solid black;
+      .button {
+        color: black;
+        font-weight: bold;
+      }
     }
   }
 }
