@@ -1,0 +1,31 @@
+.container_white {
+  background: #fff;
+  width: 520px;
+  height: auto;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 4px;
+
+  .container_padding {
+    padding: 80px;
+  }
+  .container_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #292929;
+    margin-bottom: 12px;
+  }
+  .container_para {
+    font-size: 15px;
+    font-weight: 400;
+    color: #545454;
+  }
+  .input_card {
+    margin-top: 10px;
+    .input {
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+  }
+}
